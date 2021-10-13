@@ -1,0 +1,158 @@
+{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.image1
+{
+     background-image: url(IT.jpg);  
+    height:200px;
+    border-radius: 5px;
+}
+
+    
+}
+.body
+{
+color:darkgray;
+}
+
+.sidebar
+{
+    height: 200px;
+    width: 150px;
+    position: fixed;
+    top:0;
+    left:0px;
+    background-color: lightblue;
+}
+.sidebar div
+{
+    display: block;
+    padding:8px;
+}
+.aboutus
+{
+    color:lightslategray;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:ruby;
+}
+.newstitle
+{
+    text-align: center;
+    font-size:50px;
+    font-family:Tahoma;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.welcomenews
+{
+    color:black;
+    background-color: pink;
+    padding: 0px;
+    font-size: 75px;
+}
+.gallery_photos
+{
+padding:25px;
+width: 550px;
+height:15% ;  
+display:inline-flex; 
+align: center;
+}
+.jobsbar
+{
+    text-align: center;
+    background-image: url(danson 4.jpg);
+    
+}
+.topnews
+{
+    text-align: center;
+    background-color: cornflowerblue;
+    background-image: url(images\ (2).jfif);
+}
+
+.entertainment 
+{
+  margin-left:150px;
+  background-image: url(compassion\ logo.png);
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.entertainment li
+{
+    display: inline-block;
+    margin: 25px;
+    width: 125px;
+}
+.departmentintroduction
+{
+    text-align: center;
+}
+.aboutphotos
+{
+    bachkground-image:url(compound.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.mainbody
+{
+    background-position-x: center;
+    background-color:lightgrey;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .contact_body
+  {
+      background-image: url(compound.JPG);
+      background-position: center;
+      background-repeat: repeat-x;
+
+  }
+  footer
+  {
+      text-align: center;
+  }
+  .departments-outline ul
+  {
+      text-decoration: none;
+  }
